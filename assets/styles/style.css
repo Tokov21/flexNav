@@ -125,7 +125,7 @@ ul {
   transform: scale(1.05);
   transition: transform 0.2s ease;
 }
-
+/* 
 .phone {
   width: 15vw;
 
@@ -144,4 +144,4 @@ ul {
   height: 35vh;
   
   opacity: 0;
-}
+} */
