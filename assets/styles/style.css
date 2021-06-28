@@ -51,6 +51,8 @@ ul {
   left: 0;
   right: 0;
 
+  z-index: 1;
+
   padding: 20px 40px;
 
   background-color: rgba(38, 38, 38, 0.85);
@@ -122,4 +124,24 @@ ul {
 
   transform: scale(1.05);
   transition: transform 0.2s ease;
+}
+
+.phone {
+  width: 15vw;
+
+  position: sticky;
+
+  top: 200px;
+  left: 200px;
+  
+  background-image: url(../images/cafe.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
+
+.invisible {
+  height: 45vh;
+  
+  opacity: 0;
 }
